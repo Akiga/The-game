@@ -1,0 +1,34 @@
+:root{
+    --white-color:#fff;
+    --primary-color: #ffa500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-3{
+    width: 33%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px 0;
+}
