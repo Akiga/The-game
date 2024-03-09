@@ -38,11 +38,18 @@
 /* About */
 .about{
     margin-top: 50px;
-    background-image: url(/The-gamer/assets/img/gamer.jpg);
+    /* background-image: url(/The-gamer/assets/img/backgr.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     padding-top: 50%;
     position: relative;
+}
+
+.about__img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
 }
 
 .about__layout{
