@@ -10,6 +10,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     line-height: 1.4;

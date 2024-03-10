@@ -12,6 +12,9 @@
     .event__body{
         padding: 16px;
     }
+    .trademark__mobile{
+        display: none;
+    }
 }
 
 @media (max-width:718px) {
@@ -20,5 +23,15 @@
     }
     .nav__mobile{
         display: block;
+    }
+
+    .grid__nav{
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1025px){
+    .trademark__mobile{
+        display: none;
     }
 }
