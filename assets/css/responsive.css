@@ -34,12 +34,6 @@
 
 /* Mobile */
 @media (max-width:718px) {
-    /* *{
-        background-color: #000015;
-    } */
-    .header{
-        width: 100%;
-    }
     .trademark,.nav__list{
         display: none;
     }
