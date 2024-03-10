@@ -1,4 +1,18 @@
+@media (min-width:1025px){
+    .mobile{
+        display: none;
+    }
+    .trademark__mobile{
+        display: none;
+    }
+}
+
+
 @media (max-width:1024px) and (min-width:719px) {
+    .mobile{
+        display: none;
+    }
+
     .about__body{
         bottom: 15%;
         left: 10%;
@@ -17,7 +31,15 @@
     }
 }
 
+
+/* Mobile */
 @media (max-width:718px) {
+    /* *{
+        background-color: #000015;
+    } */
+    .header{
+        width: 90%;
+    }
     .trademark,.nav__list{
         display: none;
     }
@@ -25,13 +47,90 @@
         display: block;
     }
 
-    .grid__nav{
-        justify-content: space-around;
+    .about{
+        padding-top: 0;
+        height: 450px;
+    }
+    .about__img{
+        object-fit: cover;
+        height: 450px;
+    }
+
+    .about__body{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        bottom: 10%;
+        left: 0;
+    }
+
+    .about__heading{
+        text-align: center;
+        width: 80%;
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .about__desc{
+        width: 75%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .about__socials{
+        width: 75%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .about__socials-heading,.about__socials-icon,
+    .about__socials-icon__link{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .games__heading,.store__heading,.event__heading{
+        font-size: 30px;
+    }
+
+    .grid__column-3{
+        width: 100%;
+    }
+    
+    .event__body{
+        margin: 64px 20px 0;
+    }
+    .event__list {
+        width: 100%;
+    }
+
+    .event__item-heading{
+        margin: 0;
+    }
+
+    .event__item-heading-2{
+        font-size: 30px;
+        padding: 0;
+        margin: 10px 0;
+        font-weight: 500;
+        color: blueviolet;
+    }
+
+    .event__item-desc{
+        padding: 0;
+    }
+    .event__form{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .event__form-heading{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    #event__form-input{
+        width: 100%;
+    }
+
+    .footer__heading{
+        font-size: 30px;
     }
 }
 
-@media (min-width:1025px){
-    .trademark__mobile{
-        display: none;
-    }
-}
