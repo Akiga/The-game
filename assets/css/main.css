@@ -1,3 +1,8 @@
+.web-game{
+    overflow: hidden;
+}
+
+
 /* Header */
 .header{
     width: 100%;
